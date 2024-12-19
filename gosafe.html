@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GoSafe</title>
+        <link media="all" rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link media="all" rel="stylesheet" type="text/css" href="css/style.css">
+        <meta name="description" content="GoSafe">
+    </head>
+    <body>
+        <div class="row navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a href="#"><img src="img/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul>
+                        <li><a href="#" class="goto active" data-target="home">Home</a></li>
+                        <li><a href="#" class="goto" data-target="about">About Us</a></li>
+                        <li><a href="#" class="goto" data-target="services">Our Services</a></li>
+                        <li><a href="#" class="goto" data-target="news">News</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#contact">Contact Us</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#login">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="perspective">
+            <div class="splashscreen">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <div id="home" class="screen active">
+                <div class="row header home">
+                    <div class="container-fluid">
+                        <h1>GoSafe</h1>
+                        <h2>
+                            <span>your online</span>
+                            Travel Insurance Specialist
+                        </h2>
+                        <a href="#" class="btn goto" data-target="getquote">Get Instant Quote</a>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row home-services">
+                        <div class="col col-12 col-md-4">
+                            <h3><img src="img/icon1.png" alt="travel insurance"> Travel Insurance</h3>
+                            <p>We have the perfect travel insurance product for you!</p>
+                            <a href="#" class="btn">All travel insurance products</a>
+                        </div>
+                        <div class="col col-12 col-md-4">
+                            <h3><img src="img/icon2.png" alt="travel insurance"> Car Hire Excess</h3>
+                            <p>Need a car hire excess insurance? We have it!</p>
+                            <a href="#" class="btn">All CHE insurance products</a>
+                        </div>
+                        <div class="col col-12 col-md-4">
+                            <h3><img src="img/icon3.png" alt="travel insurance"> Latest News</h3>
+                            <p>Weather warnings, flight issues and other updates.</p>
+                            <a href="#" class="btn">All news and updates</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row blue-bg">
+                    <div class="container-fluid row reviews">
+                        <h4>WORKING HARD TO EARN YOUR TRUST</h4>
+                        <p>We go above and beyond to provide great quality services and we are proud to work with:</p>
+                        <div class="col">
+                            <img src="img/trustpilot.png" alt="trustpilot">
+                            <p>Working with Trustpilot allows our customers a voice to tell us how we're doing - all customers who have insured with us are offered the chance to review.</p>
+                            <a href="#" class="btn">See all reviews</a>
+                        </div>
+                        <div class="col">
+                            <img src="img/fco.png" alt="fco">
+                            <p>The FCO (Foreign & Commonwealth Office) website provides important information on travel advisories so you can stay safe whilst traveling abroad.</p>
+                            <a href="#" class="btn">See all reviews</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row airplane">
+                    <div class="container-fluid row">
+                        <div class="col col-sm-6 offset-sm-6 col-lg-4 offset-lg-7">
+                            <h5>Sign up now</h5>
+                            <p>Get discounts, policy documents, key information and details on your purchases and much more!</p>
+                            <input type="email" placeholder="enter your email address.." class="form-control">
+                            <small>by entering your email address you agree to our <a href="#">Privacy Policy</a></small>
+                            <button type="submit" class="btn" data-toggle="modal" data-target="#signup">Sign up now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row footer">
+                    <div class="container-fluid">
+                        <p>Copyright&copy; <strong>GoSafe.com</strong></p>
+                        <img src="img/logo-white.png" alt="logo">
+                        <p><a href="#">Terms & Conditions</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="about" class="screen">
+                <div class="row header">
+                    <div class="container">
+                        <h1>About us</h1>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row about">
+                        <div class="col col-12 col-md-4 align-center">
+                            <img src="img/shield.png" alt="shield">
+                        </div>
+                        <div class="col col-12 col-md-8 col-lg-7 offset-lg-1">
+                            <p>We were created using some of the best people, skills and products in the travel insurance industry.<br>Our aim is simple - to provide a high quality travel insurance product.</p>
+                            <p>How did we do this? Simple, we looked at the industry from the customers perspective - what are people concerned about, what do people actually need from the product and what has caused customer dissatisfaction in the past.</p>
+                            <p>Importantly we have also priced our product in a way as to question the competition and hopefully make us an obvious choice.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row blue-bg">
+                    <div class="container-fluid row choose-us">
+                        <h4>WHY CHOOSE US?</h4>
+                        <p>We care about travel insurance and we have worked hard to provide a product that we believe will provide the perfect insurance for you.</p>
+                        <ul>
+                            <li>We aim to offer some of the best value products in the UK by remembering that value is a balance between price and benefit</li>
+                            <li>You can purchase your policy on-line in a matter of minutes and customise it to fit your needs</li>
+                            <li>There is free cover for up to nine of your children or grandchildren on all family policies</li>
+                            <li>Over 100 sports and activities are covered free on all policies</li>
+                            <li>Advanced supplier failure and natural catastrophe cover options available</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row airplane">
+                    <div class="container-fluid row">
+                        <div class="col col-sm-6 offset-sm-6 col-lg-5 offset-lg-7">
+                            <h5>We want your feedback!</h5>
+                            <p>We hope you find the products, explanation of cover and customer journey the best in the market - if you do not, then please let us know</p>
+                            <button type="button" class="btn" data-toggle="modal" data-target="#contact">Contact us</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row footer">
+                    <div class="container-fluid">
+                        <p>Copyright&copy; <strong>GoSafe.com</strong></p>
+                        <img src="img/logo-white.png" alt="logo">
+                        <p><a href="#">Terms & Conditions</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="services" class="screen">
+                <div class="row header">
+                    <div class="container">
+                        <h1>Our Services</h1>
+                    </div>
+                </div>
+                <div class="container align-center nav" role="tablist">
+                    <a class="active btn" data-toggle="tab" href="#it" role="tab">Travel<br>Insurance</a>
+                    <a class="btn" data-toggle="tab" href="#che" role="tab">Car Hire Excess<br>Insurance</a>
+                </div>
+                <div class="row blue-bg tab-content">
+                    <div class="tab-pane active container-fluid fade show" id="it" role="tabpanel">
+                        <h4>Travel Insurance</h4>
+                        <div class="row">
+                            <span>Single Trip Insurance <span>- from only £5</span><i></i></span>
+                            <p>Going away for a city weekend break, family beach holiday or even honeymoon? We have the perfect travel insurance for you. A single trip travel insurance policy is the perfect choice if you're going on a one-off holiday or a business trip. Prices start from £5 and cover is available for trips from 1 day to up to 12 months in length.</p>
+                            <p><strong>What's included:</strong></p>
+                            <div class="col col-12 col-md-6">
+                                <ul>
+                                    <li>Travel for up to 365 days on a single trip policy</li>
+                                    <li>100 Sports & Activities included FREE</li>
+                                    <li>Ski & Snowboard cover starting at just £8</li>
+                                    <li>No excess on Silver, Gold & Platinum policies</li>
+                                </ul>
+                            </div>
+                            <div class="col col-12 col-md-6 align-center">
+                                <a href="#getquote" class="btn">Get a free quote</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <span>Annual Multi-Trip Insurance <span>- from only £30</span><i></i></span>
+                            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
+                            <p><strong>What's included:</strong></p>
+                            <div class="col col-12 col-md-6">
+                                <ul>
+                                    <li>Nihil anim keffiyeh helvetica</li>
+                                    <li>Craft beer labore wes anderson cred nesciunt</li>
+                                    <li>Ad vegan excepteur butcher vice lomo</li>
+                                    <li>Leggings occaecat craft beer farm-to-table</li>
+                                </ul>
+                            </div>
+                            <div class="col col-12 col-md-6 align-center">
+                                <a href="#getquote" class="btn">Get a free quote</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <span>Backpacker Insurance <span>- from only £25</span><i></i></span>
+                            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
+                            <p><strong>What's included:</strong></p>
+                            <div class="col col-12 col-md-6">
+                                <ul>
+                                    <li>Nihil anim keffiyeh helvetica</li>
+                                    <li>Craft beer labore wes anderson cred nesciunt</li>
+                                    <li>Ad vegan excepteur butcher vice lomo</li>
+                                    <li>Leggings occaecat craft beer farm-to-table</li>
+                                </ul>
+                            </div>
+                            <div class="col col-12 col-md-6 align-center">
+                                <a href="#getquote" class="btn">Get a free quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane container-fluid fade" id="che" role="tabpanel">
+                        <h4>Car Hire Excess Insurance</h4>
+                        <div class="row">
+                            <span>Lorem Ipsum Dolor <span>- from only £60</span><i></i></span>
+                            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
+                            <p><strong>What's included:</strong></p>
+                            <div class="col col-12 col-md-6">
+                                <ul>
+                                    <li>Nihil anim keffiyeh helvetica</li>
+                                    <li>Craft beer labore wes anderson cred nesciunt</li>
+                                    <li>Ad vegan excepteur butcher vice lomo</li>
+                                    <li>Leggings occaecat craft beer farm-to-table</li>
+                                </ul>
+                            </div>
+                            <div class="col col-12 col-md-6 align-center">
+                                <a href="#getquote" class="btn">Get a free quote</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <span>Sit Amet et Consectur <span>- from only £40</span><i></i></span>
+                            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
+                            <p><strong>What's included:</strong></p>
+                            <div class="col col-12 col-md-6">
+                                <ul>
+                                    <li>Nihil anim keffiyeh helvetica</li>
+                                    <li>Craft beer labore wes anderson cred nesciunt</li>
+                                    <li>Ad vegan excepteur butcher vice lomo</li>
+                                    <li>Leggings occaecat craft beer farm-to-table</li>
+                                </ul>
+                            </div>
+                            <div class="col col-12 col-md-6 align-center">
+                                <a href="#getquote" class="btn">Get a free quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="container-fluid">
+                        <p>
+                            <small>
+                                <strong>Please Note:</strong><br>
+                                GoSafe travel insurance policies do not cover undisclosed medical conditions, please refer to the policy wording for full terms and conditions. Please note no cover is provided for any destination where, prior to your trip commencing, the Foreign and Commonwealth Office have advised against all (but essential) travel.
+                            </small>
+                        </p>
+                    </div>
+                </div>
+                <div class="row airplane">
+                    <div class="container-fluid row">
+                        <div class="col col-sm-6 offset-sm-6 col-lg-5 offset-lg-7">
+                            <h5>We want your feedback!</h5>
+                            <p>We hope you find the products, explanation of cover and customer journey the best in the market - if you do not, then please let us know</p>
+                            <button type="button" class="btn" data-toggle="modal" data-target="#contact">Contact us</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row footer">
+                    <div class="container-fluid">
+                        <p>Copyright&copy; <strong>GoSafe.com</strong></p>
+                        <img src="img/logo-white.png" alt="logo">
+                        <p><a href="#">Terms & Conditions</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="news" class="screen">
+                <div class="row header">
+                    <div class="container">
+                        <h1>News</h1>
+                    </div>
+                </div>
+                <div class="container-fluid row news">
+                    <div class="col col-12 col-md-4">
+                        <img src="img/news1.png" alt="news1">
+                    </div>
+                    <div class="col col-12 col-md-8">
+                        <h6>Sri Lanka Attaks</h6>
+                        <p>The Foreign and Commonwealth Office (FCO) advised against all but essential travel to Sri Lanka, due to the evolving security situation following the attacks on 21st April 2019.</p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+                <div class="container-fluid row news">
+                    <div class="col col-12 col-md-4">
+                        <img src="img/news2.png" alt="news1">
+                    </div>
+                    <div class="col col-12 col-md-8">
+                        <h6>Weather Warnings January 2019</h6>
+                        <p>Yellow weather warnings have been issued for various areas of the United Kingdom. Potentially this could cause significant issues to who are planning to travel.</p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+                <div class="container-fluid row news">
+                    <div class="col col-12 col-md-4">
+                        <img src="img/news3.png" alt="news1">
+                    </div>
+                    <div class="col col-12 col-md-8">
+                        <h6>Boeing 737 Withdrawal</h6>
+                        <p>An Ethiopian Airlines jet crashed shortly after take-off, it is reported that of the 157 aboard the flight there are no survivors. It has been reported that 7 British Nationals were on the flight.</p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+                <div class="container-fluid row news">
+                    <div class="col col-12 col-md-4">
+                        <img src="img/news4.png" alt="news1">
+                    </div>
+                    <div class="col col-12 col-md-8">
+                        <h6>Brexit Travel Disruption Cover</h6>
+                        <p>We're one of the only insurance providers to offer optional Brexit Travel Disruption cover, which protects you if Brexit causes delays or cancellations to flights, trains or other public transport.</p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+                <div class="container-fluid pagination">
+                    <button type="button" class="btn active">1</button>
+                    <button type="button" class="btn">2</button>
+                    <button type="button" class="btn">3</button>
+                </div>
+                <div class="row airplane">
+                    <div class="container-fluid row">
+                        <div class="col col-sm-6 offset-sm-6 col-lg-5 offset-lg-7">
+                            <h5>We want your feedback!</h5>
+                            <p>We hope you find the products, explanation of cover and customer journey the best in the market - if you do not, then please let us know</p>
+                            <button type="button" class="btn" data-toggle="modal" data-target="#contact">Contact us</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row footer">
+                    <div class="container-fluid">
+                        <p>Copyright&copy; <strong>GoSafe.com</strong></p>
+                        <img src="img/logo-white.png" alt="logo">
+                        <p><a href="#">Terms & Conditions</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="getquote" class="screen">
+                <div class="row header">
+                    <div class="container-fluid">
+                        <h1>Get an instant quote</h1>
+                    </div>
+                </div>
+                <form class="quote-form">
+                    <div class="container-fluid">
+                        <div class="row row-reversed">
+                            <div class="col col-md-6 warning-box">
+                                <p><strong>Please Note</strong></p>
+                                <p>
+                                    In order to purchase a cover:<br>
+                                    - you must be a UK resident<br>
+                                    - your trip must start from and end in the UK
+                                </p>
+                                <p>
+                                    No cover is provided for any destination where, prior to your
+                                    trip commencing, the Foreign and Commonwealth Office
+                                    have advised against all (but essential) travel.
+                                </p>
+                            </div>
+                            <div class="col col-md-6">
+                                <h3>What Cover do you require?</h3>
+                                <div class="radio-check-list">
+                                    <span>
+                                        <input type="radio" name="cover">
+                                        <label>
+                                            <strong>Single trip</strong>
+                                            <span>You must be between 18 and <strong>75</strong> years old <br class="md-hide">to purchase this cover</span>
+                                        </label>
+                                    </span>
+                                    <span>
+                                        <input type="radio" name="cover">
+                                        <label>
+                                            <strong>Annual multi-trip</strong>
+                                            <span>You must be between 18 and <strong>70</strong> years old <br class="md-hide">to purchase this cover</span>
+                                        </label>
+                                    </span>
+                                    <span>
+                                        <input type="radio" name="cover">
+                                        <label>
+                                            <strong>Backpacker</strong>
+                                            <span>You must be between 18 and <strong>50</strong> years old <br class="md-hide">to purchase this cover</span>
+                                        </label>
+                                    </span>
+                                    <span>
+                                        <input type="checkbox">
+                                        <label>
+                                            <strong>
+                                                Include Wintersports Cover
+                                                <span data-toggle="tooltip" data-placement="top"
+                                                title="we cover winter sports equipment and hire, lift passes, ski pack, piste closure, avalanche cover and physiotherapy on your return to the UK for an during your trip whilst taking part in winter sports activities.">
+                                                    <img src="img/question.png" alt="?">
+                                                </span>
+                                            </strong>
+                                        </label>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-md-12">
+                                <h3>Where are you travelling to?</h3>
+                                <div class="row">
+                                    <div class="col col-md-6">
+                                        <h6>Choose an area:</h6>
+                                        <div class="radio-check-list">
+                                            <span>
+                                                <input type="radio" name="destination">
+                                                <label><strong>Europe</strong> (all destinations)</label>
+                                            </span>
+                                            <span>
+                                                <input type="radio" name="destination">
+                                                <label><strong>Europe</strong> (excluding Cyprus, Greece, Malta, Spain)</label>
+                                            </span>
+                                            <span>
+                                                <input type="radio" name="destination">
+                                                <label><strong>Worldwide</strong> (all destinations)</label>
+                                            </span>
+                                            <span>
+                                                <input type="radio" name="destination">
+                                                <label><strong>Worldwide</strong> (excluding USA, Canada, Mexico, Caribbean)</label>
+                                            </span>
+                                            <span>
+                                                <input type="radio" name="destination">
+                                                <label><strong>Australia and New Zeland</strong></label>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col col-md-6">
+                                        <h6>Or enter your destinations:</h6>
+                                        <input type="text" placeholder="type a country..." class="form-control" style="max-width: 300px">
+                                        <ul class="countries-list">
+                                            <li class="btn">Austria <img src="img/cross.png" alt="x"></li>
+                                            <li class="btn">Cyprus <img src="img/cross.png" alt="x"></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-md-12">
+                                <h3>When are you travelling?</h3>
+                                <div class="row">
+                                    <div class="col col-md-3">
+                                        <h6>Departure:</h6>
+                                        <input type="text" value="05/06/2019" class="form-control datepicker">
+                                    </div>
+                                    <div class="col col-md-3">
+                                        <h6>Return:</h6>
+                                        <input type="text" value="05/07/2019" class="form-control datepicker">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-md-6">
+                                <h3>Who is travelling and what's their age?</h3>
+                                <div class="row">
+                                    <div class="col col-md-6">
+                                        <div class="radio-check-list">
+                                            <span>
+                                                <input type="radio" name="traveller">
+                                                <label><strong>Individual(s)</strong></label>
+                                            </span>
+                                            <span>
+                                                <input type="radio" name="traveller">
+                                                <label><strong>Couple <img src="img/question.png" alt="?"></strong></label>
+                                            </span>
+                                            <span>
+                                                <input type="radio" name="traveller">
+                                                <label><strong>Family <img src="img/question.png" alt="?"></strong></label>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col col-md-6 traveller-age">
+                                        <input type="text" class="form-control" placeholder="Lead traveller age:">
+                                        <input type="text" class="form-control" placeholder="Traveller 2 age:">
+                                        <button class="btn"><img src="img/plus.png" alt="+"> add traveller</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6 warning-box">
+                                <p><strong>Please Note</strong></p>
+                                <p>
+                                    If you are older than the maximum age limit for the policy,
+                                    you may be able to obtain an alternative travel insurance
+                                    policy by contacting:
+                                </p>
+                                <p>
+                                    British Insurance Brokers Association:<br>
+                                    <a href="#">www.biba.org.uk</a><br>
+                                    Tel: 0870 950 1790 (9.00am - 5.00pm Monday to Friday)
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-md-12">
+                                <h3>Do you need to extend your cover?</h3>
+                                <div class="radio-check-list">
+                                    <span>
+                                        <input type="checkbox">
+                                        <label>
+                                            <strong>Extend to Golf</strong>
+                                            <span>Extra cover for your golf equipment, including cover for green fees, tuition or schools fees and equipment hire.</span>
+                                        </label>
+                                    </span>
+                                    <span>
+                                        <input type="checkbox">
+                                        <label>
+                                            <strong>Extend to Business</strong>
+                                            <span>Additional cover for business equipment including samples, business money and replacement of staff.</span>
+                                        </label>
+                                    </span>
+                                    <span>
+                                        <input type="checkbox">
+                                        <label>
+                                            <strong>Extend to Cruise</strong>
+                                            <span>Specifically designed to provide additional cover for your baggage as well as unused excursions.</span>
+                                        </label>
+                                    </span>
+                                    <span>
+                                        <input type="checkbox">
+                                        <label>
+                                            <strong>Extend to Wedding</strong>
+                                            <span>Peace of mind cover for ceremonial attire, wedding gifts, wedding rings, photographs and video recordings of your special day.</span>
+                                        </label>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-md-6">
+                                <h3>Enter your e-mail address (optional)</h3>
+                                <input type="email" placeholder="example@email.com" class="form-control col col-md-10">
+                                <small>by entering your email address you agree to our <a href="#">Privacy Policy</a></small>
+                            </div>
+                            <div class="col col-md-6 warning-box">
+                                <p>
+                                    <strong>Loyalty Club Member?</strong><br>
+                                    We'll automatically apply your loyalty discount to your quote.
+                                </p>
+                                <p>
+                                    <strong>New to GoSafe?</strong><br>
+                                    We'll provide you with your policy documents and key
+                                    information if you purchase, or your quote details if you do
+                                    not proceed to purchase.<br>
+                                    Your e-mail address will not be used for any other purpose.
+                                </p>
+                            </div>
+                        </div>
+                        <button class="btn get-quote">Get a free Quote</button>
+                    </div>
+                </form>
+                <div class="row footer">
+                    <div class="container-fluid">
+                        <p>Copyright&copy; <strong>GoSafe.com</strong></p>
+                        <img src="img/logo-white.png" alt="logo">
+                        <p><a href="#">Terms & Conditions</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" tabindex="-1" role="dialog" id="contact">
+            <div class="modal-dialog" role="document">
+                <img src="img/cross.png" class="close-modal" data-dismiss="modal" aria-label="Close">
+                <h6>Contact Us</h6>
+                <p>For any information you can contact us by filling out the form below.</p>
+                <form action="#" method="post">
+                    <label>Name</label>
+                    <input type="text" class="form-control">
+                    <label>Email</label>
+                    <input type="email" class="form-control">
+                    <label>Message</label>
+                    <textarea rows="4" class="form-control"></textarea>
+                    <small>by submitting you agree to our <a href="#">Privacy Policy</a></small>
+                    <div class="align-right">
+                        <button type="submit" class="btn">Submit</button>
+                        <button type="button" class="btn reversed" data-dismiss="modal">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="modal fade" tabindex="-1" role="dialog" id="signup">
+            <div class="modal-dialog" role="document">
+                <img src="img/cross.png" class="close-modal" data-dismiss="modal" aria-label="Close">
+                <h6>Sign up to our service</h6>
+                <p>Get discounts, policy documents, key information and details on your purchases and much more!</p>
+                <form action="#" method="post">
+                    <label>Email</label>
+                    <input type="email" class="form-control">
+                    <label>Create a password</label>
+                    <input type="password" class="form-control">
+                    <label>Repeat password</label>
+                    <input type="password" class="form-control">
+                    <small>by signin up you agree to our <a href="#">Privacy Policy</a></small>
+                    <div class="align-right">
+                        <button type="submit" class="btn">Sign up</button>
+                        <button type="button" class="btn reversed" data-dismiss="modal">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="modal fade" tabindex="-1" role="dialog" id="login">
+                <div class="modal-dialog" role="document">
+                    <img src="img/cross.png" class="close-modal" data-dismiss="modal" aria-label="Close">
+                    <h6>Login to our service</h6>
+                    <p>Welcome back traveller! Please, enter your credentials to login to your account.</p>
+                    <form action="#" method="post">
+                        <label>Email</label>
+                        <input type="text" class="form-control">
+                        <label>Password</label>
+                        <input type="password" class="form-control">
+                        <small><a href="#">Forgot your password?</a></small>
+                        <div class="align-right">
+                            <button type="submit" class="btn">Login</button>
+                            <button type="button" class="btn reversed" data-dismiss="modal">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script>
+                $(document).ready(function() {
+                    $(function () {
+                        $('[data-toggle="tooltip"]').tooltip()
+                    })
+                })
+                $(".tab-content .row").on("click", function() {
+                    $(".tab-content .row").not($(this)).removeClass("open");
+                    $(this).toggleClass("open");
+                })
+                $(".countries-list .btn").on("click", function() {
+                    $(this).hide();
+                })
+                $("a.goto").on("click", function() {
+                    $('.navbar-collapse').collapse('hide');
+                    $("a.goto").not($(this)).removeClass("active");
+                    $(this).addClass("active");
+                    var target = $(this).attr("data-target");
+                    $(".screen").removeClass("active");
+                    $(".screen").each(function() {
+                        if ($(this).attr("id") == target) {
+                            $(this).addClass("active");
+                        }
+                    })
+                })
+        </script>
+    </body>
+</html>
